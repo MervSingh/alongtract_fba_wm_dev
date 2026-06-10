@@ -1,10 +1,9 @@
 #!/bin/sh
 
-cd /Users/mervynsingh/Desktop/ALONG_TRACT
+cd /PATH/TO/DIRECTORY
 # Set paths
-template_dir="/Users/mervynsingh/Desktop/ALONG_TRACT/template_tractseg_new"
-#tract_dir="$template_dir/segmentations"
-tract_dir="$template_dir/segmentations/NEW"
+template_dir="/PATH/TO/DIRECTORY/template"
+tract_dir="$template_dir/segmentations"
 
 segments=(1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20)
 

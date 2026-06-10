@@ -4,8 +4,8 @@ import pandas as pd
 import openpyxl
 
 # Set root directory and demographics path
-base_dir = "/Users/mervynsingh/Desktop/ALONG_TRACT/template_tractseg_new/segmentations/NEW"
-demographics_excel_path = "/Users/mervynsingh/Desktop/ALONG_TRACT/template_tractseg_new/demographics.xlsx"
+base_dir = "/PATH/TO/DIRECTORY/template/segmentations"
+demographics_excel_path = "/PATH/TO/DIRECTORY/template/segmentations/demographics.xlsx"
 
 # Define list of tracts and hemispheres
 tracts = [

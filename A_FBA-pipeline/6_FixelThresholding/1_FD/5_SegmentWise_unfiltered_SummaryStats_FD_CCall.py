@@ -4,8 +4,8 @@ import pandas as pd
 import openpyxl
 
 # Set base directory and demographics path
-base_dir = "/Users/mervynsingh/Desktop/ALONG_TRACT/template_tractseg_new/segmentations/NEW"
-demographics_excel_path = "/Users/mervynsingh/Desktop/ALONG_TRACT/template_tractseg_new/demographics.xlsx"
+base_dir = "/PATH/TO/DIRECTORY/template/segmentations"
+demographics_excel_path = "/PATH/TO/DIRECTORY/template/segmentations/demographics.xlsx"
 
 # CC tracts without hemispheres
 cc_tracts = [f"CC_{i}" for i in range(1, 8)]

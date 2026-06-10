@@ -1,10 +1,10 @@
 #!/bin/bash
 
 # === Path to input directory (contains all the subfolders) ===
-input_base="/Users/mervynsingh/Downloads/NEW/unthresholded_fc_masks_NEW"
+input_base="/PATH/TO/DIRECTORY/template/segmentations/unthresholded_fc_masks_NEW"
 
 # === Path to output directory ===
-output_base="/Users/mervynsingh/Downloads/NEW/unthresholded_logfc_masks_NEW"
+output_base="/PATH/TO/DIRECTORY/template/segmentations/unthresholded_logfc_masks_NEW"
 
 # === Loop through each subfolder ===
 for input_subfolder in "$input_base"/*; do

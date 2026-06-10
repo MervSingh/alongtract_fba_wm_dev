@@ -10,7 +10,7 @@ from dipy.segment.metric import AveragePointwiseEuclideanMetric
 import traceback
 
 # Setup
-tract_root = '/Users/mervynsingh/Desktop/ALONG_TRACT/template_tractseg_new/segmentations/NEW'
+tract_root = '/PATH/TO/DIRECTORY/template/segmentations'
 
 # Metric and clustering model
 metric = AveragePointwiseEuclideanMetric()

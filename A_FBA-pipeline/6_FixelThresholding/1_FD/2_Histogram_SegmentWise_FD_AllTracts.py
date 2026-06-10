@@ -7,7 +7,7 @@ from matplotlib.backends.backend_pdf import PdfPages
 import gc  # add gc import
 
 # Base root directory where all tracts are located
-base_dir = "/Users/mervynsingh/Desktop/ALONG_TRACT/template_tractseg_new/segmentations/NEW"
+base_dir = "/PATH/TO/DIRECTORY/template/segmentations"
 
 tracts = ["AF", "FPT", "SCP", "ST_POSTC", "T_POSTC", "ATR", "FX", "SLF_II", "ST_PREC", "T_PREC",
           "CG", "ICP", "ILF", "MLF", "OR",

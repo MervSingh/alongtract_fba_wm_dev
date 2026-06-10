@@ -5,7 +5,7 @@ import pandas as pd
 from matplotlib.backends.backend_pdf import PdfPages
 
 # Base root directory where all tracts are located
-base_dir = "/Users/mervynsingh/Desktop/ALONG_TRACT/template_tractseg_new/segmentations/NEW"
+base_dir = "/PATH/TO/DIRECTORY/template/segmentations"
 
 cc_tracts = [f"CC_{i}" for i in range(1, 8)]
 
