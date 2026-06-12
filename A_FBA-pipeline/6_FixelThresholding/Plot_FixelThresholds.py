@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 from matplotlib.backends.backend_pdf import PdfPages
 
 # ---- Load your data ----
-df = pd.read_csv('/PATH/TO/INPUT/SegmentWise_Thresholding_Criteria.csv')
+df = pd.read_csv('/PATH/TO/INPUT/highest_second_bin_values_fd_tracts.csv')
 df.rename(columns={'Threshold criteria': 'Threshold'}, inplace=True)
 
 # ---- Preprocess ----
