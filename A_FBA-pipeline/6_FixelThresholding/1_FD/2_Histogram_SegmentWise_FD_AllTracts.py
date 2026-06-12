@@ -147,10 +147,10 @@ for tract in tracts:
             all_second_bin_values.extend(second_bin_values)
             all_highest_second_bin_per_folder.append([folder_name, highest_subject, highest_bin_value])
 
-combined_csv_path = os.path.join(base_dir, "ALL_second_bin_values.csv")
+combined_csv_path = os.path.join(base_dir, "second_bin_values_other_tracts.csv")
 pd.DataFrame(all_second_bin_values, columns=["Folder", "Subject", "First Bin Start", "Second Bin End", "Second Bin FD Value", "Range Fixel Count"]).to_csv(combined_csv_path, index=False)
 
-highest_bin_csv_path = os.path.join(base_dir, "ALL_highest_second_bin_values_fd_tracts.csv")
+highest_bin_csv_path = os.path.join(base_dir, "highest_second_bin_values_other_tracts.csv")
 pd.DataFrame(all_highest_second_bin_per_folder, columns=["Folder", "Subject", "Highest Second Bin Value"]).to_csv(highest_bin_csv_path, index=False)
 
 if skipped_empty_files:

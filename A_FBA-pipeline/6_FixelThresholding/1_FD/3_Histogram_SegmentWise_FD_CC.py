@@ -135,10 +135,10 @@ for tract_name in cc_tracts:
         all_highest_second_bin_per_folder.append([folder_name, highest_subject, highest_bin_value])
 
 # Save combined CSVs
-combined_csv_path = os.path.join(base_dir, "CC_ALL_second_bin_values.csv")
+combined_csv_path = os.path.join(base_dir, "second_bin_values_cc.csv")
 pd.DataFrame(all_second_bin_values, columns=["Folder", "Subject", "First Bin Start", "Second Bin End", "Second Bin FD Value", "Range Fixel Count"]).to_csv(combined_csv_path, index=False)
 
-highest_bin_csv_path = os.path.join(base_dir, "CC_ALL_highest_second_bin_values.csv")
+highest_bin_csv_path = os.path.join(base_dir, "highest_second_bin_values_cc.csv")
 pd.DataFrame(all_highest_second_bin_per_folder, columns=["Folder", "Subject", "Highest Second Bin Value"]).to_csv(highest_bin_csv_path, index=False)
 
 # Log skipped empty files
