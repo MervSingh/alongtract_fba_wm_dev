@@ -20,7 +20,7 @@ module load fsl/6.0.0-bin
 #################################################
 
 # run scripts
-bash /bulk/bray_bulk/Merv-Along_tract/VSD_AlongTractFBA/DD_scripts_amended_merv/1d_PopTemplate_merv.sh
+bash /PATH/TO/SCRIPT/${ARCjobScript}.sh
 
 #################################################
 
