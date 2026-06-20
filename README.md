@@ -1,4 +1,4 @@
-## Project title: Spatiotemporal Variation in White-Matter Development Across Early Childhood
+## Spatiotemporal Variation in White-Matter Development Across Early Childhood
 
 ### Description of repository:
 Code repository for the project: "Spatiotemporal Variation in White-Matter Development Across Early Childhood".
