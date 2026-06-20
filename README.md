@@ -1,4 +1,4 @@
-# alongtract_fba_wm_dev
+# Spatiotemporal Variation in White-Matter Development Across Early Childhood
 
 Code repository for the project: "Spatiotemporal Variation in White-Matter Development Across Early Childhood".
 
@@ -6,4 +6,4 @@ Please see the appropriate subfolders for resources to conduct Fixel-based analy
 
 Please ensure you cite all primary sources when using the code contained within this repo
 
-Please send any questions, comments or queries to mervynsingh87@gmail.com
+Please send any questions, comments or queries to: mervynderjeet.singh@ucalgary.ca
