@@ -23,7 +23,7 @@ for tract in sorted(os.listdir(root_dir)):
         continue
 
     # PDF output path for this tract
-    pdf_path = os.path.join(output_dir, f"{tract}_thresholded_logfc_histograms.pdf")
+    pdf_path = os.path.join(output_dir, f"{tract}_thresholded_fd_histograms.pdf")
     with PdfPages(pdf_path) as pdf:
         for i in range(0, len(filtered_files), 10):
             fig, axes = plt.subplots(5, 2, figsize=(11, 14))  # 10 plots per page
