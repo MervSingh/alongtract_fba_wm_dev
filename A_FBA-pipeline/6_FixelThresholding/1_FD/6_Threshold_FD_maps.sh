@@ -3,8 +3,8 @@
 # Define paths
 original_csv="/PATH/TO/INPUT/highest_second_bin_values_fd_tracts.csv"
 csv_path_cleaned="/tmp/cleaned_thresholds.csv"
-input_base_dir="/PATH/TO/DIRECTORY/template/segmentations/unthresholded_fd_masks_NEW"
-output_base_dir="/PATH/TO/DIRECTORY/template/segmentations/thresholded_fd_masks_NEW"
+input_base_dir="/PATH/TO/DIRECTORY/template/segmentations/unthresholded_fd_masks"
+output_base_dir="/PATH/TO/DIRECTORY/template/segmentations/thresholded_fd_masks"
 summary_csv="$output_base_dir/summary_fd_values.csv"
 log_file="$output_base_dir/processing_log.txt"
 
