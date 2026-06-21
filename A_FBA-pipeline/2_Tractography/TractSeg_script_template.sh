@@ -25,3 +25,5 @@ TractSeg -i wmfod_template_peaks.nii.gz --output_type endings_segmentation
 TractSeg -i wmfod_template_peaks.nii.gz --output_type TOM
 Tracking -i wmfod_template_peaks.nii.gz --tracking_dilation 1 --tracking_format tck --nr_fibers 10000
 
+# Copy all .tck files from "tractseg_output/TOM_trackings" to a separate subdirectory called "segmentations" - must be created within the template directory
+# Within the "segmentations" subdirectory, create separate subfolders for each tract and copy the corresponding .tck files into these subfolders
