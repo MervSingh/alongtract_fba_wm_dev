@@ -1,9 +1,9 @@
 #!/bin/bash
 
 # === Path Configurations ===
-fc_base="/PATH/TO/DIRECTORY/template/segmentations/unthresholded_logfc_masks_NEW"
-mask_base="/PATH/TO/DIRECTORY/template/segmentations/thresholded_fd_masks_NEW"
-fc_output="/PATH/TO/DIRECTORY/template/segmentations/thresholded_logfc_masks_NEW"
+fc_base="/PATH/TO/DIRECTORY/template/segmentations/unthresholded_logfc_masks"
+mask_base="/PATH/TO/DIRECTORY/template/segmentations/thresholded_fd_masks"
+fc_output="/PATH/TO/DIRECTORY/template/segmentations/thresholded_logfc_masks"
 summary_csv="$fc_output/summary_fc_values.csv"
 log_file="$fc_output/fc_masking_log.txt"
 
