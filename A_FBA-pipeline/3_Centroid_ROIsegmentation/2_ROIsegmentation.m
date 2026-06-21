@@ -4,7 +4,7 @@
 %file
 
 clear;
-Tracts_dir='/PATH/TO/DIRECTORY/template_tractseg/segmentations';
+Tracts_dir='/PATH/TO/DIRECTORY/template/segmentations';
 cd(Tracts_dir);
 % Tracts=ls(Tracts_dir);
 Tracts = dir('*_*');
