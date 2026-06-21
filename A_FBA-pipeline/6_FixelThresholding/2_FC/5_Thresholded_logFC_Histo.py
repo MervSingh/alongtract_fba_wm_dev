@@ -4,8 +4,8 @@ import matplotlib.pyplot as plt
 from matplotlib.backends.backend_pdf import PdfPages
 
 # === USER CONFIGURATION ===
-root_dir = "/PATH/TO/DIRECTORY/template/segmentations/thresholded_logfc_masks_NEW"
-output_dir = "/PATH/TO/DIRECTORY/template/segmentations/histograms_thresholded_logfc_NEW"
+root_dir = "/PATH/TO/DIRECTORY/template/segmentations/thresholded_logfc_masks"
+output_dir = "/PATH/TO/DIRECTORY/template/segmentations/histograms_thresholded_logfc"
 
 # Create output directory if it doesn't exist
 os.makedirs(output_dir, exist_ok=True)
